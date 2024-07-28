@@ -78,7 +78,7 @@ bg_frame = Frame(master=root, width=900, height=540, bg='white')
 bg_frame.place(x=0, y=0)
 
 # Load and place the login image
-img_open = Image.open(r'C:\Users\A\PycharmProjects\Company Project\Images\login.png')
+img_open = Image.open(r'Images\login.png')
 img = ImageTk.PhotoImage(img_open)
 imglabel = Label(master=root, image=img, bd=0)
 imglabel.place(x=50, y=80)
@@ -110,10 +110,10 @@ passentry.bind('<FocusIn>', lambda event: on_pass(event, passentry))
 # Creating the eye button for toggling password visibility
 show_password = [False]
 
-open_eye_img = Image.open(r'C:\Users\A\PycharmProjects\Company Project\Images\file.jpg')
+open_eye_img = Image.open(r'Images\file.jpg')
 open_eye = ImageTk.PhotoImage(open_eye_img, size=(50, 50))
 
-close_eye_img = Image.open(r'C:\Users\A\PycharmProjects\Company Project\Images\file1.jpg')
+close_eye_img = Image.open(r'Images\file1.jpg')
 close_eye = ImageTk.PhotoImage(close_eye_img, size=(50, 50))
 
 eyeButton = Button(root, image=close_eye ,bg='white', bd=0, cursor='hand2', activebackground='white',

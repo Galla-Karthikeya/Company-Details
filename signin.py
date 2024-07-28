@@ -66,7 +66,7 @@ signin_window.resizable(False, False)
 signin_window.geometry('900x540+50+50')
 signin_window.config(bg='white')
 
-img = Image.open(r'C:\Users\A\PycharmProjects\Company Project\Images\rescale.jpg')
+img = Image.open(r'Images\rescale.jpg')
 img_fix = ImageTk.PhotoImage(img)
 imagelabel = Label(signin_window, image=img_fix, bd=0, bg='white')
 imagelabel.place(x= 50, y = 100)

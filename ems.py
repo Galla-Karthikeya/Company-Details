@@ -116,7 +116,7 @@ ems_window.title('Employee Mangament System')
 ems_window.geometry('920x650+300+200')
 ems_window.configure(fg_color='#181B20')
 ems_window.resizable(False, False)
-logo = CTkImage(Image.open(r'C:\Users\A\PycharmProjects\Company Project\Images\1117_U1RVRElPIEtBVCAxMTctMTAcrop.jpg'), size=(900, 219))
+logo = CTkImage(Image.open(r'Images\1117_U1RVRElPIEtBVCAxMTctMTAcrop.jpg'), size=(900, 219))
 logolabel = CTkLabel(ems_window, image=logo, text='')
 logolabel.grid(row = 0, column = 0, columnspan = 2)
 
